@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localização do ônibus</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<header>
+    <div class="contaniner-fluid container-principal"><img src="/img/logo.png" width="200px"></div>
+</header>
+
+<body>
+
+    <div id="mapa"></div>
+    <div class="busca-onibus">
+        <span class="poppins localizacao">Localizar ônibus:</span>
+        <input id="idbus" placeholder="Insira a ID do ônibus" type="text">
+        <button onclick="solicitar()" id="btn1">Obter localização</button>
+    </div>
+    <script src="map.js"></script>
+</body>
+
+</html>
